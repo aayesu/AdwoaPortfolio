@@ -1,0 +1,63 @@
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/13/13/51/marble-2398946_960_720.jpg");
+}
+
+img{
+height: 20rem;
+  display:block;
+  margin: 100px auto 0;
+  /* top: 100px;
+  left: 365px; */
+  box-shadow: 10px 10px 5px grey;
+
+}
+.text{
+  font-family: cursive, serif;
+  background: -webkit-linear-gradient(#eee, #DB7093);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px;
+}
+
+marquee{
+
+  top:100px;
+  position: relative;
+}
+button{
+  top: 600px;
+  left: 340px;
+  position: relative;
+  font-family: cursive, serif;
+  background: -webkit-linear-gradient(#eee, #C71585);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.navbar{
+  position: relative;
+  top:10px;
+  left: 10px;
+  width:98%;
+  background-color: #FFE4E1;
+  -webkit-box-shadow: -1px 1px 5px 5px rgba(112,101,112,1);
+-moz-box-shadow: -1px 1px 5px 5px rgba(112,101,112,1);
+box-shadow: -1px 1px 5px 5px rgba(112,101,112,1);
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 0px solid #000000;
+}
+
+a{
+  font-family: cursive, serif;
+  color: -webkit-linear-gradient(#eee, #C71585)!important;
+
+}
+.form-group{
+  position: relative;
+  width: 40%;
+  top:80px;
+  left: 310px;
+}
